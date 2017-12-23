@@ -1,16 +1,26 @@
 {
   "name": "mortycss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CSS framework written in SASS",
-  "main": "index.js",
+  "main": "dist/morty.min.css",
+  "style": "dist/morty.min.css",
   "scripts": {
     "build": "npm-run-all --parallel build:*",
-    "build:normal": "node-sass src/morty.scss dist/morty.css",
-    "build:min": "node-sass src/morty.scss dist/morty.min.css --output-style compressed",
-    "dev:build": "node-sass src/morty.scss -wo dist",
-    "test:style": "stylelint 'src/**.scss'",
+    "build:normal": "node-sass src/scss/morty.scss dist/morty.css",
+    "build:min": "node-sass src/scss/morty.scss dist/morty.min.css --output-style compressed",
+    "dev:build": "node-sass src/scss/morty.scss -wo dist",
+    "test:style": "stylelint 'src/scss/**.scss'",
     "test": "npm-run-all --parallel test:*"
   },
+  "keywords": [
+    "browser",
+    "flexbox",
+    "grid",
+    "css",
+    "morty",
+    "sass",
+    "scss"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/rishabh09/mortycss.git"
