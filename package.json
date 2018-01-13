@@ -1,6 +1,6 @@
 {
   "name": "mortycss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CSS framework written in SASS",
   "main": "dist/morty.min.css",
   "style": "dist/morty.min.css",
