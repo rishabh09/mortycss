@@ -36,18 +36,27 @@ table {
   border-spacing: 0; }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
   width: 80%;
   margin-left: 10%; }
 
 .container-fluids {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
   width: 100%; }
 
 .row {
   display: flex;
   flex-direction: row; }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: .375rem .75rem;
+  border: 1px solid transparent;
+  background-color: #3498db;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  user-select: none; }
